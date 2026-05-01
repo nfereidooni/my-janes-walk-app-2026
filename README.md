@@ -6,11 +6,11 @@ A better way to browse and plan your [Jane's Walk](https://janeswalk.org) weeken
 
 ## The story
 
-Last year I went on my first Jane's Walk — and ended up meeting one of my best friends.
+Last year I went on my first Jane's Walk and ended up meeting one of my best friends.
 
 For those who don't know: Jane's Walk is a global, volunteer-led festival inspired by Jane Jacobs. It's all about exploring cities on foot, sharing local stories, and connecting with the people around you. Toronto goes hard for it every May long weekend, with 150+ walks happening across the city.
 
-The only problem? Their website has always been tough to navigate. Planning my walks this year was starting to feel like a scavenger hunt. So I did what any lazy builder would do — I pulled the event data, built a simple Next.js app, and made it easy.
+The only problem? Their website has always been tough to navigate. Planning my walks this year was starting to feel like a scavenger hunt. So I did what any lazy builder would do, I pulled the event data, built a simple Next.js app, and made it easy.
 
 ## What it does
 
