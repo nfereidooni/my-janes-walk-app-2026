@@ -86,6 +86,30 @@ function isStarted(walk) {
   return Date.now() > start.getTime();
 }
 
+function IconCompass({ size = 22, color = "currentColor" }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <circle cx="12" cy="12" r="9" />
+      <polygon points="16.24,7.76 14.12,14.12 7.76,16.24 9.88,9.88" fill={color} stroke="none" />
+    </svg>
+  );
+}
+function IconPin({ size = 22, color = "currentColor" }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M12 2 C8.69 2 6 4.69 6 8 c0 5.25 6 13 6 13 s6-7.75 6-13 c0-3.31-2.69-6-6-6 Z" />
+      <circle cx="12" cy="8" r="2.5" fill={color} stroke="none" />
+    </svg>
+  );
+}
+function IconBookmark({ size = 22, color = "currentColor", filled = false }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 24 24" fill={filled ? color : "none"} stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M19 21 L12 16 L5 21 V5 a2 2 0 0 1 2-2 h10 a2 2 0 0 1 2 2 Z" />
+    </svg>
+  );
+}
+
 function Loop({ size = 40, color = T.rust, op = 0.15 }) {
   return (
     <svg width={size} height={size} viewBox="0 0 80 80" fill="none" style={{ opacity: op, display: "block" }}>
@@ -1088,16 +1112,22 @@ function JanesWalkApp() {
           borderTop: `1.5px solid ${T.parchment}`,
           display: "flex",
           zIndex: 100,
-          paddingBottom: "env(safe-area-inset-bottom,0px)",
+          paddingBottom: "max(env(safe-area-inset-bottom), 10px)",
           boxShadow: `0 -4px 20px rgba(28,25,22,0.06)`,
         }}
       >
         {[
-          { id: "explore", ico: "🗺", lbl: "Explore" },
-          { id: "map", ico: "📍", lbl: "Map" },
-          { id: "schedule", ico: "⭐", lbl: `Schedule${starred.size > 0 ? ` (${starred.size})` : ""}` },
-        ].map(({ id, ico, lbl }) => {
+          { id: "explore", lbl: "Explore" },
+          { id: "map", lbl: "Map" },
+          { id: "schedule", lbl: `Schedule${starred.size > 0 ? ` (${starred.size})` : ""}` },
+        ].map(({ id, lbl }) => {
           const on = tab === id;
+          const color = on ? T.rust : T.sandLight;
+          const ico = id === "explore"
+            ? <IconCompass size={on ? 24 : 22} color={color} />
+            : id === "map"
+            ? <IconPin size={on ? 24 : 22} color={color} />
+            : <IconBookmark size={on ? 24 : 22} color={color} filled={on && starred.size > 0} />;
           return (
             <button
               key={id}
@@ -1112,12 +1142,12 @@ function JanesWalkApp() {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                gap: "3px",
+                gap: "4px",
                 transition: "opacity 0.15s",
                 touchAction: "manipulation",
               }}
             >
-              <span style={{ fontSize: on ? "21px" : "19px", lineHeight: 1, transition: "font-size 0.15s ease" }}>{ico}</span>
+              <span style={{ display: "flex", transition: "transform 0.15s ease", transform: on ? "scale(1.1)" : "scale(1)" }}>{ico}</span>
               <span
                 style={{
                   fontSize: "10px",
