@@ -912,6 +912,24 @@ function JanesWalkApp() {
                   {d.label}
                 </button>
               ))}
+              <button
+                onClick={() => setShowEnded((v) => !v)}
+                style={{
+                  background: showEnded ? T.sandLight : "none",
+                  color: showEnded ? T.inkMid : T.inkLight,
+                  border: `1.5px solid ${T.sandLight}`,
+                  borderRadius: "999px",
+                  padding: "7px 14px",
+                  cursor: "pointer",
+                  fontSize: "12px",
+                  fontWeight: "700",
+                  fontFamily: T.sans,
+                  transition: "all 0.15s ease",
+                  marginLeft: "auto",
+                }}
+              >
+                {showEnded ? "Hide ended" : "Show ended"}
+              </button>
             </div>
           </div>
         )}
@@ -1036,6 +1054,9 @@ function JanesWalkApp() {
             <div style={{ fontSize: "12px", color: T.inkLight, fontFamily: T.sans, marginBottom: "14px", fontWeight: "600" }}>
               {visibleWalks.length} walk{visibleWalks.length !== 1 ? "s" : ""}{" "}
               {nFilters || search || day ? "found" : "· May 1–3"}
+              {!showEnded && endedCount > 0 && (
+                <span style={{ color: T.sand, marginLeft: "6px" }}>· {endedCount} ended</span>
+              )}
             </div>
             {visibleWalks.map((w, i) => (
               <WalkCard key={w.id} walk={w} starred={starred.has(w.id)} onToggle={toggleStar} onOpen={setDetail} idx={i} />
@@ -1048,28 +1069,6 @@ function JanesWalkApp() {
                 <p style={{ fontFamily: T.serif, fontSize: "20px", color: T.inkMid, margin: "0 0 8px" }}>No walks match</p>
                 <p style={{ fontFamily: T.sans, fontSize: "13px", margin: 0 }}>Try adjusting your filters.</p>
               </div>
-            )}
-            {endedCount > 0 && (
-              <button
-                onClick={() => setShowEnded((v) => !v)}
-                style={{
-                  display: "block",
-                  width: "100%",
-                  marginTop: "8px",
-                  padding: "13px",
-                  background: "none",
-                  border: `1.5px dashed ${T.sandLight}`,
-                  borderRadius: "16px",
-                  color: T.inkLight,
-                  fontSize: "13px",
-                  fontWeight: "700",
-                  fontFamily: T.sans,
-                  cursor: "pointer",
-                  textAlign: "center",
-                }}
-              >
-                {showEnded ? `Hide ended walks ↑` : `Show ${endedCount} ended walk${endedCount !== 1 ? "s" : ""} ↓`}
-              </button>
             )}
           </div>
         )}
