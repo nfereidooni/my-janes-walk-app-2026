@@ -1,0 +1,668 @@
+{
+  "Kingsway neighbourhood, Main exit of Royal York subway station, just north of Royal York Road and Bloor Street, Toronto, Ontario, Canada": null,
+  "Garrison Crossing bridge, north side (777 Wellington Street West), closest intersection Strachan Ave. and Wellington St. W, Toronto, Ontario, Canada": null,
+  "Gibson House Museum, 5172 Yonge Street, Yonge Street & Park Home Avenue, North York Centre TTC station, Toronto, Ontario, Canada": null,
+  "Meeting Point: Clover Hill Park, 50 St. Joseph St. at the sculpture of Primrose (Donkey)  Transit: Stop#265, Bay St at St Joseph St Route 19, Southbound from Bay Station. Bay Stn:  Wellesley Stn:, Toronto, Ontario, Canada": null,
+  "Dr. Lillian McGregor Park 25 Wellesley St. W. Near Wellesly Subway station, Toronto, Ontario, Canada": null,
+  "Queen's Park, in front of the Ontario Legislation Building, closest subway is Queen's Park Station on Line 1, Toronto, Ontario, Canada": null,
+  "Church St side of the green space around Metropolitan United Church (56 Queen St E), Toronto, Ontario, Canada": null,
+  "Maple Leafs Square (Union Station Entrance) (Union Station nearest stop)), Toronto, Ontario, Canada": null,
+  "Downtown - Northeast corner of King & Church Streets, outside St. James Cathedral, Toronto, Ontario, Canada": null,
+  "Lofts 399 courtyard (located at 399 Adelaide St W., southeast corner of Adelaide St W and Brent St) The courtyard can be accessed from the driveway on Adelaide St W., Toronto, Ontario, Canada": null,
+  "Pam McConnell Aquatic Centre (Main Entrance), Regent Park, 640 Dundas Street East, located east of the intersection of Parliament St and Dundas St E, Toronto, Ontario, Canada": null,
+  "Starting at the Grange and finishing on West Queen West. We'll start near AGO (Couch Monster sculpture) then move west along Queen, sneaking into the alleys along the way., Toronto, Ontario, Canada": null,
+  "Main gate of Craigleigh Gardens in Rosedale (160 South Dr, Toronto, ON M4W 1S2), 10 minutes walk north of Castle Frank Station, Toronto, Ontario, Canada": null,
+  "Guildwood Village. Guildwood Parkway & Livingston Road. Morningside Bus (#116) stop at Guild Park, Toronto, Ontario, Canada": null,
+  "Nathan Philips Square - by The Archer, Toronto, Ontario, Canada": null,
+  "Jack Layton Ferry Terminal. We will be taking the 6:45PM ferry to Hanlan's Point, Toronto, Ontario, Canada": null,
+  "Parking Lot of the Warren General Store at Lynde House Museum, corner of Brock Street South & Burns Street (900 Brock Street South), Toronto, Ontario, Canada": null,
+  "Victoria Park and Eglinton Ave E, Toronto, Ontario, Canada": null,
+  "Stock Yards Village - Weston Rd and St Clair Ave W, Toronto, Ontario, Canada": null,
+  "Thorncliffe Park Community Hub (located inside East York Town Centre), Toronto, Ontario, Canada": null,
+  "Opposite Castle Frank Subway Station on the north side, Toronto, Ontario, Canada": null,
+  "Old Fire Hall 30 at 39 Commissioners Street, TTC 114, stop Commissioners St and Munition St), Toronto, Ontario, Canada": null,
+  "44 Beechwood Drive. Take Don Mills 25 bus to Pape and O'Connor-15 minute walk down Beechwood -right next to Police Canine Training Unit, Toronto, Ontario, Canada": null,
+  "Queen St W / Richmond (in front of the building 401 Richmond / Dark Horse Coffee), Toronto, Ontario, Canada": null,
+  "Heritage Square at Ajax Town Hall - 65 Harwood Avenue South (Northeast corner of Harwood Avenue & Kings Crescent), Toronto, Ontario, Canada": null,
+  "55 Twyn Rivers Drive, Scarborough, ON - main intersection is Sheppard Ave E and Twyn Rivers Dr. If driving, the location can only be accessed through Altona Dr on the Pickering side., Toronto, Ontario, Canada": null,
+  "Bloor and Spadina, Toronto, Ontario, Canada": null,
+  "Front entrance of Gears Bike Shop, 599 King St E, King St E and Lower River St, Corktown, Toronto, Ontario, Canada": null,
+  "Islington Ave at southeast corner with Bloor St W, Toronto, Ontario, Canada": null,
+  "Dufferin Gate, Exhibition Place, Toronto, Ontario, Canada": {
+    "lat": 43.6335563,
+    "lng": -79.4253401,
+    "displayName": "Dufferin Gate Arch, Dufferin Street, Exhibition Place, Spadina—Fort York, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, M6K 1A9, Canada"
+  },
+  "Parkdale, Queen W/Cowan Ave., Toronto, Ontario, Canada": null,
+  "260 Dawes Road -- Parking lot entrance to Taylor Creek (west side of Dawes Rd. at Crescent Town Rd.), Toronto, Ontario, Canada": null,
+  "The walk location will be in Liberty Village. We will meet at the west side of Lamport Stadium (1155 King St W) on Fraser Avenue. The main intersection in King St W and Fraser Ave, which is very close to King St W and Dufferin St., Toronto, Ontario, Canada": null,
+  "Kipling subway station, south parking lot. On the west side of the parking lot, just outside the south exit of the subway station., Toronto, Ontario, Canada": null,
+  "Berczy Park at the Dog Fountain, Toronto, Ontario, Canada": null,
+  "Mackenzie House Museum, 82 Bond Street, Yonge & Dundas area, Toronto, Ontario, Canada": null,
+  "We start east of Yonge at 25 Yorkville Avenue (Yorkville Ave & Bay St), Toronto, Ontario, Canada": null,
+  "Little India: Coxwell Ave and Gerrard St E, Toronto, Ontario, Canada": null,
+  "Northeast corner of Queen’s Park Crescent East and Grosvenor Street. (3 min walk north of Queen’s Park subway station), Toronto, Ontario, Canada": null,
+  "Tollkeeper's Cottage, 750 Davenport at Bathurst, Toronto, Ontario, Canada": null,
+  "Parkdale Amphitheatre, Dufferin St and Queen St W, Parkdale, Toronto, Ontario, Canada": null,
+  "Kensington Market - Dundas and Augusta, Toronto, Ontario, Canada": null,
+  "Queen West - 585 Queen St W, Toronto, ON M5V outside the Loblaws (Queen street West and Portland), Toronto, Ontario, Canada": null,
+  "NE Corner of Bloor and Dufferin by Pigeon Mural by Nick Sweetman, Toronto, Ontario, Canada": null,
+  "David Pecault Square (meet by the fountain), Toronto, Ontario, Canada": null,
+  "Downtown, Queen Street West and Bay Street (meet at east end of the fountain at Nathan Phillips Square), Toronto, Ontario, Canada": null,
+  "Wexford Hydro Park, located in Wexford just north of Pharmacy Ave and Eglinton Ave E. The closest transit stop is Pharmacy Ave at Rannock St, serviced by the 67 TTC bus., Toronto, Ontario, Canada": null,
+  "Brampton City Hall , front steps, Toronto, Ontario, Canada": null,
+  "Don Mills/ Intersection: Lawrence and Leslie, Toronto, Ontario, Canada": null,
+  "Kingsway , Main exit of Royal York subway station, Toronto": null,
+  "Garrison Crossing bridge, north side (777 Wellington Street West), Toronto": null,
+  "Gibson House Museum, 5172 Yonge Street, Toronto": {
+    "lat": 43.7696594,
+    "lng": -79.4147519,
+    "displayName": "Gibson House, 5172, Yonge Street, Willowdale West, Willowdale, North York, Toronto, Golden Horseshoe, Ontario, M2N 5P6, Canada"
+  },
+  "Clover Hill Park, 50 St. Joseph St. at the sculpture of Primrose (Donkey) Transit:, Toronto": null,
+  "Dr. Lillian McGregor Park 25 Wellesley St. W. Near Wellesly Subway station, Toronto": null,
+  "Queen's Park, in front of the Ontario Legislation Building, Toronto": null,
+  "Church St side of the green space around Metropolitan United Church (56 Queen St E), Toronto": null,
+  "Maple Leafs Square (Union Station Entrance) (Union Station nearest stop)), Toronto": null,
+  "Downtown - Northeast corner of King & Church Streets, outside St. James Cathedral, Toronto": null,
+  "Lofts 399 courtyard (located at 399 Adelaide St W., southeast corner of Adelaide St W and Brent St) The courtyard can be, Toronto": null,
+  "Pam McConnell Aquatic Centre (Main Entrance), Regent Park, Toronto": null,
+  "Starting at the Grange and finishing on West Queen West. We'll start near AGO (Couch Monster sculpture) then move west a, Toronto": null,
+  "Main gate of Craigleigh Gardens in Rosedale (160 South Dr, Toronto": null,
+  "Guildwood Village. Guildwood Parkway & Livingston Road. Morningside Bus (#116) stop at Guild Park, Toronto": null,
+  "Nathan Philips Square - by The Archer, Toronto": null,
+  "Jack Layton Ferry Terminal. We will be taking the 6:45PM ferry to Hanlan's Point, Toronto": null,
+  "Parking Lot of the Warren General Store at Lynde House Museum, corner of Brock Street South & Burns Street (900 Brock St, Toronto": null,
+  "Victoria Park and Eglinton Ave E, Toronto": null,
+  "Stock Yards Village - Weston Rd and St Clair Ave W, Toronto": null,
+  "Thorncliffe Park Community Hub (located inside East York Town Centre), Toronto": null,
+  "Opposite Castle Frank Subway Station on the north side, Toronto": null,
+  "Old Fire Hall 30 at 39 Commissioners Street, TTC 114, Toronto": null,
+  "44 Beechwood Drive. Take Don Mills 25 bus to Pape and O'Connor-15 minute walk down Beechwood -right next to Police Canin, Toronto": null,
+  "Queen St W / Richmond (in front of the building 401 Richmond / Dark Horse Coffee), Toronto": null,
+  "Heritage Square at Ajax Town Hall - 65 Harwood Avenue South (Northeast corner of Harwood Avenue & Kings Crescent), Toronto": null,
+  "55 Twyn Rivers Drive, Scarborough, Toronto": {
+    "lat": 43.813785,
+    "lng": -79.1566402,
+    "displayName": "55, Twyn Rivers Drive, Morningside Heights, Scarborough—Rouge Park, Scarborough, Pickering, Golden Horseshoe, Ontario, M1B 2K5, Canada"
+  },
+  "Bloor and Spadina, Toronto": null,
+  "Front entrance of Gears Bike Shop, 599 King St E, Toronto": null,
+  "Islington Ave at southeast corner with Bloor St W, Toronto": null,
+  "Parkdale, Queen W/Cowan Ave., Toronto": null,
+  "260 Dawes Road -- Parking lot entrance to Taylor Creek (west side of Dawes Rd. at Crescent Town Rd.), Toronto": null,
+  "The walk location will be in Liberty Village. We will meet at the west side of Lamport Stadium (1155 King St W) on Frase, Toronto": null,
+  "Kipling subway station, south parking lot. On the west side of the parking lot, Toronto": null,
+  "Berczy Park at the Dog Fountain, Toronto": null,
+  "Mackenzie House Museum, 82 Bond Street, Toronto": {
+    "lat": 43.6557116,
+    "lng": -79.3782616,
+    "displayName": "Mackenzie House, 82, Bond Street, Downtown Yonge East, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5B 1X2, Canada"
+  },
+  "We start east of Yonge at 25 Yorkville Avenue (Yorkville Ave & Bay St), Toronto": null,
+  "Little India: Coxwell Ave and Gerrard St E, Toronto": null,
+  "Northeast corner of Queen’s Park Crescent East and Grosvenor Street. (3 min walk north of Queen’s Park subway station), Toronto": null,
+  "Tollkeeper's Cottage, 750 Davenport at Bathurst, Toronto": null,
+  "Parkdale Amphitheatre, Dufferin St and Queen St W, Toronto": null,
+  "Kensington Market - Dundas and Augusta, Toronto": null,
+  "Queen West - 585 Queen St W, Toronto": {
+    "lat": 43.6490264,
+    "lng": -79.3954413,
+    "displayName": "Queen St W / Spadina Ave, Queen Street West, Wellington Place, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5V 2A2, Canada"
+  },
+  "NE Corner of Bloor and Dufferin by Pigeon Mural by Nick Sweetman, Toronto": null,
+  "David Pecault Square (meet by the fountain), Toronto": null,
+  "Downtown, Queen Street West and Bay Street (meet at east end of the fountain at Nathan Phillips Square), Toronto": null,
+  "Wexford Hydro Park, located in Wexford just north of Pharmacy Ave and Eglinton Ave E. The closest transit stop is Pharma, Toronto": null,
+  "Brampton City Hall, front steps, Toronto": null,
+  "Don Mills/ Intersection: Lawrence and Leslie, Toronto": null,
+  "Bob Hunter Memorial Park - 7277 14th Ave, Markham - main intersection is at Reesor Rd and 14th Ave, Toronto": null,
+  "Bendale at Bellamy south of Lawrence East -- TTC Bellamy 9, Toronto": null,
+  "George Hislop Park (20 Isabella St.), near Yonge/Bloor, Toronto": null,
+  "Coxwell Station, Toronto": {
+    "lat": 43.6839754,
+    "lng": -79.3229654,
+    "displayName": "Coxwell Station, Coxwell Bus Terminal, Danforth, Beaches—East York, East York, Toronto, Golden Horseshoe, Ontario, M4C 1H6, Canada"
+  },
+  "The walk starts at 8 Thorncliffe Park Drive, beside the Petro-Canada station at the southeast corner of Thorncliffe Park, Toronto": null,
+  "High Park: Eden Smith House at 267 Indian Road (south of Hewitt Avenue), Toronto": null,
+  "Dundas - Watkinson Parkette, Junction, Toronto": null,
+  "Beaches-East York - Coxwell Station, Toronto": null,
+  "190 Albany Ave, in the Annex near Dupont and Bathurst, Toronto": null,
+  "PARC - 1499 Queen Street West, Toronto": {
+    "lat": 43.6396197,
+    "lng": -79.4404072,
+    "displayName": "Parkdale Activity-Recreation Centre, 1499, Queen Street West, South Parkdale, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, M6R 1A6, Canada"
+  },
+  "St. Clair TTC Station, Pleasant Blvd exit, Toronto": null,
+  "Don Roadway and Lakeshore Blvd E (south-west corner, by the river), Toronto": null,
+  "Brampton, Kennedy and Clarence, Toronto": null,
+  "Beaches - 1 Hannaford St, Toronto": null,
+  "Beaches - Neville Park and Queen St E, Toronto": null,
+  "Six Points Park (10 Viking Lane) - meet in the park amphitheatre (concrete circle next to the playground equipment). Par, Toronto": null,
+  "North-east corner of Front & Jarvis in the St. Lawrence Market, Toronto": null,
+  "429 Yonge Street. College subway station, Toronto": null,
+  "Wilson Park Road & King Street West Streetcar stop - south side, Parkdale, Toronto": null,
+  "Princess Park, Empress Ave and Doris Ave, Toronto": null,
+  "Union Station, in front of the bull statue at the intersection of Front St and Bay St, Toronto": null,
+  "Ashbridge Estate -- 1444 Queen Street East - 1.5 blocks east of Queen and Greenwood, Toronto": null,
+  "On the northeast corner of Rhodes Ave. and Gerrard St. East, one block west of Coxwell Ave. Greenwood-Coxwell, Toronto": null,
+  "High Park, Bloor Street entrance gates, Toronto": null,
+  "Chester Station; Chester Ave + Danforth Ave, Toronto": {
+    "lat": 43.6782277,
+    "lng": -79.3525143,
+    "displayName": "Chester, Chester Avenue, Playter Estates-Danforth, Toronto—Danforth, East York, Toronto, Golden Horseshoe, Ontario, M4K 2X5, Canada"
+  },
+  "Meet on the north side of Queen St West and Simcoe St., just west of University, Toronto": null,
+  "Leaside station (SE corner Bayview and Eglinton) main entrance, Toronto": null,
+  "Bendale, Brockley Dr and Lawrence Ave, Toronto": null,
+  "Black Walnut Day Use Area - 7445 Elgin Mills Rd E, Markham - main intersection is Reesor Rd and Elgin Mills Rd E, Toronto": null,
+  "Nathan Phillips Square; Queen St. and University Ave; Queen Station/Osgoode Station (transit), Toronto": null,
+  "Commissioners Street Bridge, 150 Commissioners St. Port Lands, Toronto": null,
+  "Broadview and Pottery Road (near 1010 Broadview), Toronto": null,
+  "Toronto Reference Library (Bloor/Yonge Station)": null,
+  "Gibson Park (Southeast corner), Toronto": null,
+  "Raccoon Park (86 Soudan Avenue), Toronto": null,
+  "69 Albany Avenue, Toronto - the Annex neighborhood (Bloor & Bathurst Streets)": null,
+  "South west corner of Grace Street and College Street. Closest streetcar stops: College Street at Grace Street., Toronto": null,
+  "Northwest corner of Queen St. & University Ave., Toronto": null,
+  "375 Colborne Lodge Drive, High Park, Toronto": {
+    "lat": 43.6512348,
+    "lng": -79.4636347,
+    "displayName": "High Park Nature Centre, 375, Colborne Lodge Drive, High Park-Swansea, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, M6P 3K8, Canada"
+  },
+  "Ben Nobleman Park, arsoss from Cedervale Subway Station, Toronto": null,
+  "Vicinity of Nathan Phillips Square (either Osgoode, St. Patrick or Queen Street subway stations), Toronto": null,
+  "579 Rogers Road (Golden Wheat Bakery), Toronto": null,
+  "Margaret Fairley Park - Brunswick Ave & Ulster St., Toronto": null,
+  "39 Commissioners Street (Old Fire Hall) at Biidaasige Park, Toronto": null,
+  "Light sculpture 434 front Street East near Cherry, Toronto": null,
+  "Willowdale. Edithvale Park, north end at Pollinator Garden. Edithvale/Carney bus stop, Toronto": null,
+  "Riverside Common Park, Queen St E and Broadview Ave, Toronto": null,
+  "Warden Hilltop Community Centre, 25 Mendelssohn St, Toronto": {
+    "lat": 43.7146865,
+    "lng": -79.2802879,
+    "displayName": "Warden Hilltop Community Centre, 25, Mendelssohn Street, Clairlea-Birchmount, Scarborough Southwest, Scarborough, Toronto, Golden Horseshoe, Ontario, M1L 0G9, Canada"
+  },
+  "South side of Queens Quay and Dan Leckie Way by the South Side Transit Stop., Toronto": null,
+  "the large Inukshuk in The Toronto Inukshuk Park on the waterfront. Closest intersection is Lake Shore Boulevard West and": null,
+  "Bloor West and High Park Avenue across from High Park Station., Toronto": null,
+  "South east corner of Main St. and Danforth Ave, Toronto": null,
+  "John C. Price Playground: 3045 Little John Ln, Mississauga, Toronto": null,
+  "Dundas-Roncesvalles Peace Garden ( 2201 Dundas Street West at Roncesvalles Avenue opposite Boustead Avenue ), Roncesvall, Toronto": null,
+  "Little Jamaica, Cedarvale Station Plaza, Toronto": null,
+  "St. James Cathedral, 106 King Street East (intersection Church and King Street East), Toronto": null,
+  "Black Creek. Murrary Park Way and Shoreham Dr (Maple Ave). TTC Bus Route 108 (Pioneer Village Station)., Toronto": null,
+  "Twilight Lane, -1 block west of Richmond St W and Simcoe St. End, Toronto": null,
+  "Midtown, Yonge/Eglinton, Toronto": {
+    "lat": 43.7059514,
+    "lng": -79.4030104,
+    "displayName": "Midtown Dental Studio, Eglinton Avenue West, Yonge-Eglinton, Toronto—St. Paul's, Toronto, Golden Horseshoe, Ontario, M4R 1A7, Canada"
+  },
+  "Moss Park Espresso at 185 Queen St E, Queen St E & Jarvis St intersection, Toronto": null,
+  "Garrison Common Park, Toronto": {
+    "lat": 43.6384967,
+    "lng": -79.4070378,
+    "displayName": "Garrison Common, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  "Finch Store (42 Dewson St, Toronto - Ossington Subway station": null,
+  "Budapest Park, Beside the Dinosaurs, Toronto": null,
+  "Mimico Square - Mimico Ave & Lakeshore Blvd W, Toronto": null,
+  "CF Toronto Eaton Centre fountain inside the mall": null,
+  "Erwin Krickhahn Park near Bloor & Symington - 121 Rankin Crescent, Toronto": null,
+  "Ed & Anne Mirvish Parkette, 843 Bathurst Street. Greenspace inside the Streetcar Loop, Toronto": null,
+  "At the north-west corner of Bain and Logan Avenues. South Riverdale. Nearest Public Transit: Chester station, 505/504 st, Toronto": null,
+  "Neil McLellan Park across from Runnymede Subway, Toronto": null,
+  "Northwest corner of Spadina Ave and St. Andrews St., Toronto": null,
+  "Northeast corner of Harbord and Bathurst, Toronto": null,
+  "Southeast corner of St. George and Hoskin, on U of T Campus, Toronto": null,
+  "Snider Parkette at Yonge & Lytton Blvd. (across from Blythwood Rd), Toronto": null,
+  "AGO staircase (across 346 Dundas St W), Toronto": null,
+  "Toronto Public Library Beaches Branch (Queen St. E. and Lee) outside by the owl sculpture.": null,
+  "The World Peace Monument (Queen St. W and Cowan Ave - 1303 Queen St. W), Toronto": null,
+  "Yonge Boulevard Parkette at Yonge Street and Yonge Boulevard, in front of the Scotiabank. About a 10-15 minute walk from, Toronto": null,
+  "West Lodge Park, 165 Lansdowne Ave, Toronto": null,
+  "Caledonia LRT Station - Main Entrance - outside, Toronto": null,
+  "Main entrance gates of Prospect Cemetery on St. Clair Avenue West (just west of Lansdowne Avenue), Toronto": null,
+  "Mount Dennis station, Kodak No.9 Entrance, Toronto": null,
+  "Interesection of Telegram Mews and Iceboat Terrace in City Place near Spadina Ave. and Fort York Blvd. in Cityplace, Toronto": null,
+  "Exhibition Station (TTC Streetcar Loop), Toronto": null,
+  "New Toronto, Lakeshore/Kipling": {
+    "lat": 43.6036083,
+    "lng": -79.5193245,
+    "displayName": "New Toronto Street, Kipling Avenue, New Toronto, Etobicoke—Lakeshore, Etobicoke, Toronto, Golden Horseshoe, Ontario, M8V 2E8, Canada"
+  },
+  "Sankofa Square (formerly Yonge-Dundas Square), at Yonge St and Dundas St E, Toronto": null,
+  "Contemplating Child sculpture, Community Common Park, Toronto": null,
+  "Patio of BEVO Espresso & Gelato, 324 Scarlett RTd (1 block south of Eglinton & Scarlett), Toronto": null,
+  "Malvern, Sewells Road and Brenyon Way, Toronto": null,
+  "just north of Royal York Road  & Bloor Street, Toronto": null,
+  "Main exit of Royal York subway Station, Toronto": null,
+  "Kingsway, Toronto": {
+    "lat": 43.6485297,
+    "lng": -79.509784,
+    "displayName": "The Kingsway, Etobicoke—Lakeshore, Etobicoke, Toronto, Golden Horseshoe, Ontario, M8X 1C1, Canada"
+  },
+  "777 Wellington Street, Toronto": {
+    "lat": 43.6408337,
+    "lng": -79.4111504,
+    "displayName": "Wellington Street West, West Queen West, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M6K 0E3, Canada"
+  },
+  "50 St. Joseph St, Toronto": {
+    "lat": 43.6663721,
+    "lng": -79.389042,
+    "displayName": "St. Basil's Church, 50, St. Joseph Street, Bay-Cloverhill, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M5S 1J4, Canada"
+  },
+  "25 Wellesley St, Toronto": {
+    "lat": 43.6648637,
+    "lng": -79.3831116,
+    "displayName": "25, Wellesley Street East, Church-Wellesley, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M4Y 0C8, Canada"
+  },
+  "closest subway is Queen's Park Station, Toronto": null,
+  "Queen's Park, Toronto": {
+    "lat": 43.6645067,
+    "lng": -79.3923597,
+    "displayName": "Queen's Park, University—Rosedale, Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  "56 Queen St, Toronto": {
+    "lat": 43.6539003,
+    "lng": -79.376699,
+    "displayName": "Metropolitan United Church, 56, Queen Street East, Downtown Yonge East, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5C 2Z3, Canada"
+  },
+  "Union Station Entrance, Toronto": {
+    "lat": 43.6456804,
+    "lng": -79.3798595,
+    "displayName": "Entrance from Toronto Union Station, PATH Main Route, St Lawrence-East Bayfront-The Islands, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5J 2L5, Canada"
+  },
+  "Downtown - Northeast corner of King  & Church Streets, Toronto": null,
+  "Downtown - Northeast corner of King & Church Streets, Toronto": null,
+  "399 Adelaide St, Toronto": {
+    "lat": 43.6461616,
+    "lng": -79.3971841,
+    "displayName": "Lofts399, 399, Adelaide Street West, Wellington Place, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5V 3C1, Canada"
+  },
+  "640 Dundas Street, Toronto": {
+    "lat": 43.6612253,
+    "lng": -79.3610976,
+    "displayName": "Regent Park Aquatic Centre, 640, Dundas Street East, Regent Park, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5A 0K7, Canada"
+  },
+  "Couch Monster sculpture, Toronto": null,
+  "Starting at the Grange  & finishing on West Queen West. We'll start, Toronto": null,
+  "160 South Dr, Toronto": {
+    "lat": 43.6773765,
+    "lng": -79.3823117,
+    "displayName": "South Drive, Rosedale-Moore Park, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M4W 1R1, Canada"
+  },
+  "Guildwood Village. Guildwood Parkway  & Livingston Road. Morningside Bus (#116), Toronto": null,
+  "900 Brock Street, Toronto": null,
+  "900 Brock Street South, Toronto": null,
+  "corner of Brock Street South  & Burns Street (900 Brock Street South, Toronto": null,
+  "Parking Lot of the Warren General Store at Lynde House Museum, Toronto": null,
+  "Victoria Park  & Eglinton Ave E, Toronto": {
+    "lat": 43.7248368,
+    "lng": -79.3035179,
+    "displayName": "Eglinton Ave E / Victoria Park Ave, Eglinton Avenue East, Victoria Village, Don Valley East, North York, Toronto, Golden Horseshoe, Ontario, M1L 2T3, Canada"
+  },
+  "Stock Yards Village - Weston Rd  & St Clair Ave W, Toronto": null,
+  "located inside East York Town Centre, Toronto": null,
+  "Opposite Castle Frank Subway Station, Toronto": null,
+  "30 at 39 Commissioners Street, Toronto": null,
+  "stop Commissioners St  & Munition St, Toronto": null,
+  "Old Fire Hall 30 at 39 Commissioners Street, Toronto": null,
+  "44 Beechwood Drive, Toronto": {
+    "lat": 43.6974174,
+    "lng": -79.3538074,
+    "displayName": "Toronto Police Service - Police Dog Services, 44, Beechwood Drive, Broadview North, Toronto—Danforth, East York, Toronto, Golden Horseshoe, Ontario, M4K 2T3, Canada"
+  },
+  "in front of the building 401 Richmond / Dark Horse Coffee, Toronto": null,
+  "65 Harwood Avenue, Toronto": null,
+  "Northeast corner of Harwood Avenue & Kings Crescent, Toronto": null,
+  "South (Northeast corner of Harwood Avenue & Kings Crescent, Toronto": null,
+  "Bloor  & Spadina, Toronto": null,
+  "599 King St, Toronto": {
+    "lat": 43.656861,
+    "lng": -79.3558118,
+    "displayName": "Gears, 599, King Street East, Moss Park, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5A 4C2, Canada"
+  },
+  "Parkdale, Toronto": {
+    "lat": 43.6404285,
+    "lng": -79.437352,
+    "displayName": "Parkdale, High Park-Swansea, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  "260 Dawes Road, Toronto": {
+    "lat": 43.6972905,
+    "lng": -79.2973132,
+    "displayName": "260, Dawes Road, Taylor-Massey, Beaches—East York, East York, Toronto, Golden Horseshoe, Ontario, M4C 5M8, Canada"
+  },
+  "1155 King St, Toronto": {
+    "lat": 43.707214,
+    "lng": -79.5104835,
+    "displayName": "King Street, Weston, York South—Weston, York, North York, Toronto, Golden Horseshoe, Ontario, M9N 2Y9, Canada"
+  },
+  "Kipling subway Station, Toronto": null,
+  "Kipling subway station, Toronto": null,
+  "25 Yorkville Avenue, Toronto": {
+    "lat": 43.6716481,
+    "lng": -79.3888075,
+    "displayName": "Yorkville Avenue, Annex, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M4W 1L5, Canada"
+  },
+  "Little India: Coxwell Ave  & Gerrard St E, Toronto": null,
+  "3 min walk north of Queen’s Park subway station, Toronto": null,
+  "corner of Queen’s Park Crescent East  & Grosvenor Street. (3 min walk north of, Toronto": null,
+  "s Park subway Station, Toronto": null,
+  "Tollkeeper's Cottage, Toronto": {
+    "lat": 43.6769171,
+    "lng": -79.416388,
+    "displayName": "The Tollkeeper's Cottage, 750, Davenport Road, Wychwood, Toronto—St. Paul's, Toronto, Golden Horseshoe, Ontario, M5R 1Y8, Canada"
+  },
+  "Dufferin St  & Queen St W, Toronto": {
+    "lat": 43.6431073,
+    "lng": -79.4287385,
+    "displayName": "Dufferin St / Queen St W, Dufferin Street, Little Portugal, Davenport, Toronto, Golden Horseshoe, Ontario, M6J 1H8, Canada"
+  },
+  "Kensington Market - Dundas  & Augusta, Toronto": null,
+  "NE Corner of Bloor  & Dufferin by Pigeon Mural by Nick Sweetman, Toronto": null,
+  "meet by the fountain, Toronto": null,
+  "meet at east end of the fountain at Nathan Phillips Square, Toronto": null,
+  "Queen Street West  & Bay Street (meet at east end of the, Toronto": null,
+  "Downtown, Toronto": {
+    "lat": 43.6563221,
+    "lng": -79.3809161,
+    "displayName": "Downtown Yonge, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5G 1Z3, Canada"
+  },
+  "in Wexford just north of Pharmacy Ave  & Eglinton Ave E. The closest transit stop, Toronto": null,
+  "Wexford Hydro Park, Toronto": {
+    "lat": 43.7305812,
+    "lng": -79.298884,
+    "displayName": "Wexford Hydro Park, 899, Scarborough Centre, Scarborough, Toronto, Golden Horseshoe, Ontario, M1L 2L9, Canada"
+  },
+  "Brampton City Hall, Toronto": null,
+  "Don Mills/ Intersection: Lawrence  & Leslie, Toronto": null,
+  "7277 14th Ave, Toronto": {
+    "lat": 43.838348,
+    "lng": -79.3168216,
+    "displayName": "Cyxtera Toronto YYZ2, 4175, 14th Avenue, Markham, York Region, Golden Horseshoe, Ontario, L3R 0J2, Canada"
+  },
+  "20 Isabella St, Toronto": {
+    "lat": 43.6678571,
+    "lng": -79.3846829,
+    "displayName": "20, Isabella Street, Church-Wellesley, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M4Y 1N1, Canada"
+  },
+  "8 Thorncliffe Park Drive, Toronto": {
+    "lat": 43.7049497,
+    "lng": -79.3490031,
+    "displayName": "Super Stop, 8, Thorncliffe Park Drive, Thorncliffe Park, Don Valley West, East York, Toronto, Golden Horseshoe, Ontario, M4H 1H1, Canada"
+  },
+  "267 Indian Road, Toronto": {
+    "lat": 43.6515569,
+    "lng": -79.455185,
+    "displayName": "267, Indian Road, High Park, High Park-Swansea, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, M6R 1Y9, Canada"
+  },
+  "Keele  & Dundas, Toronto": {
+    "lat": 43.6653344,
+    "lng": -79.4647902,
+    "displayName": "Keele Street, Dundas Street West, Junction Area, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, M6P 1Y9, Canada"
+  },
+  "190 Albany Ave, Toronto": {
+    "lat": 43.6717992,
+    "lng": -79.4130383,
+    "displayName": "190, Albany Avenue, Annex, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M5R 3G7, Canada"
+  },
+  "Clair TTC Station, Toronto": null,
+  "St. Clair TTC Station, Toronto": null,
+  "south-west corner, by the river, Toronto": null,
+  "Don Roadway  & Lakeshore Blvd E (south-west corner, Toronto": null,
+  "Don Roadway and Lakeshore Blvd E (south-west corner, Toronto": null,
+  "Kennedy  & Clarence, Toronto": null,
+  "Brampton, Toronto": {
+    "lat": 43.6784901,
+    "lng": -79.5582447,
+    "displayName": "Brampton Road, Willowridge-Martingrove-Richview, Etobicoke Centre, Etobicoke, Toronto, Golden Horseshoe, Ontario, M9R 1Y5, Canada"
+  },
+  "1 Hannaford St, Toronto": {
+    "lat": 43.6803726,
+    "lng": -79.2911898,
+    "displayName": "1, Hannaford Street, East End-Danforth, Beaches—East York, Toronto, Golden Horseshoe, Ontario, M4E 3E4, Canada"
+  },
+  "Beaches - Neville Park  & Queen St E, Toronto": null,
+  "10 Viking Lane, Toronto": {
+    "lat": 43.6387673,
+    "lng": -79.5363551,
+    "displayName": "Viking Lane, Etobicoke City Centre, Etobicoke—Lakeshore, Etobicoke, Toronto, Golden Horseshoe, Ontario, M9B 1A5, Canada"
+  },
+  "North-east corner of Front  & Jarvis in the St. Lawrence Market, Toronto": null,
+  "429 Yonge Street, Toronto": {
+    "lat": 43.6603834,
+    "lng": -79.382393,
+    "displayName": "Indian Studio Kitchne, 429, Yonge Street, Downtown Yonge East, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M4Y 1X4, Canada"
+  },
+  "Wilson Park Road  & King Street West Streetcar stop - south, Toronto": null,
+  "Wilson Park Road & King Street West Streetcar stop - south side, Toronto": null,
+  "Empress Ave  & Doris Ave, Toronto": {
+    "lat": 43.7694074,
+    "lng": -79.4126546,
+    "displayName": "Empress Ave / Yonge St, Empress Avenue, Yonge-Doris, Willowdale, North York, Toronto, Golden Horseshoe, Ontario, M2N 6Z7, Canada"
+  },
+  "statue at the intersection of Front St  & Bay St, Toronto": null,
+  "Union Station, Toronto": {
+    "lat": 43.6447084,
+    "lng": -79.3801462,
+    "displayName": "Union Station, 140, Bay Street, St Lawrence-East Bayfront-The Islands, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5J 2L5, Canada"
+  },
+  "1444 Queen Street, Toronto": {
+    "lat": 43.6652924,
+    "lng": -79.3227599,
+    "displayName": "1444, Queen Street East, Greenwood-Coxwell, Toronto—Danforth, Toronto, Golden Horseshoe, Ontario, M4L 1E2, Canada"
+  },
+  "On the northeast corner of Rhodes Ave.  & Gerrard St. East, Toronto": null,
+  "On the northeast corner of Rhodes Ave. and Gerrard St. East, Toronto": null,
+  "High Park, Toronto": {
+    "lat": 43.6462813,
+    "lng": -79.4637945,
+    "displayName": "High Park, 1873, High Park-Swansea, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  "Meet on the north side of Queen St West  & Simcoe St, Toronto": null,
+  "Meet on the north side of Queen St West and Simcoe St., Toronto": null,
+  "SE corner Bayview and Eglinton, Toronto": null,
+  "Leaside station (SE corner Bayview  & Eglinton) main entrance, Toronto": null,
+  "Leaside Station, Toronto": {
+    "lat": 43.7111037,
+    "lng": -79.3771168,
+    "displayName": "Leaside, Eglinton Avenue East, Leaside-Bennington, Don Valley West, East York, Toronto, Golden Horseshoe, Ontario, M4P 1P8, Canada"
+  },
+  "Brockley Dr  & Lawrence Ave, Toronto": {
+    "lat": 43.7522273,
+    "lng": -79.262369,
+    "displayName": "Brockley Drive, Lawrence Avenue East, Bendale-Glen Andrew, Scarborough Centre, Scarborough, Toronto, Golden Horseshoe, Ontario, M1P 4Y4, Canada"
+  },
+  "7445 Elgin Mills Rd, Toronto": null,
+  "Markham - main intersection is Reesor Rd  & Elgin Mills Rd E, Toronto": null,
+  "Black Walnut Day Use Area - 7445 Elgin Mills Rd E, Toronto": null,
+  "transit, Toronto": {
+    "lat": 43.7343415,
+    "lng": -79.4524578,
+    "displayName": "Transit Road, Clanton Park, York Centre, North York, Toronto, Golden Horseshoe, Ontario, M3K 0C2, Canada"
+  },
+  "150 Commissioners St, Toronto": {
+    "lat": 43.6494527,
+    "lng": -79.3428675,
+    "displayName": "Commissioners Street, South Riverdale, Toronto—Danforth, Toronto, Golden Horseshoe, Ontario, M4M 2M2, Canada"
+  },
+  "near 1010 Broadview, Toronto": null,
+  "Broadview  & Pottery Road (near 1010 Broadview, Toronto": null,
+  "Bloor/Yonge Station, Toronto": {
+    "lat": 43.6707855,
+    "lng": -79.3856867,
+    "displayName": "Bloor-Yonge, 2, Bloor Street East, Rosedale-Moore Park, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M4W 1A8, Canada"
+  },
+  "Southeast corner, Toronto": {
+    "lat": 43.6546048,
+    "lng": -79.3879439,
+    "displayName": "University / Dundas, Southeast corner, University Avenue, Yonge-Bay Corridor, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5G 1Y8, Canada"
+  },
+  "86 Soudan Avenue, Toronto": {
+    "lat": 43.7051948,
+    "lng": -79.3936898,
+    "displayName": "Soudan Avenue, South Eglinton-Davisville, Toronto—St. Paul's, Toronto, Golden Horseshoe, Ontario, M4S 1V5, Canada"
+  },
+  "69 Albany Avenue, Toronto": {
+    "lat": 43.667745,
+    "lng": -79.4106005,
+    "displayName": "69, Albany Avenue, Annex, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M5S 1Y3, Canada"
+  },
+  "South west corner of Grace Street  & College Street. Closest streetcar stops:, Toronto": null,
+  "Northwest corner of Queen St.  & University Ave, Toronto": null,
+  "arsoss from Cedervale Subway Station, Toronto": null,
+  "Ben Nobleman Park, Toronto": {
+    "lat": 43.6984405,
+    "lng": -79.4351925,
+    "displayName": "Ben Nobleman Park, 1075, Toronto—St. Paul's, York, Toronto, Golden Horseshoe, Ontario, Canada"
+  },
+  "either Osgoode, St. Patrick or Queen Street subway stations, Toronto": null,
+  "Vicinity of Nathan Phillips Square (either Osgoode, Toronto": null,
+  "579 Rogers Road, Toronto": {
+    "lat": 43.6820156,
+    "lng": -79.4713513,
+    "displayName": "579, Rogers Road, York South—Weston, York, Toronto, Golden Horseshoe, Ontario, M6N 2B5, Canada"
+  },
+  "Margaret Fairley Park - Brunswick Ave  & Ulster St, Toronto": null,
+  "39 Commissioners Street, Toronto": {
+    "lat": 43.6472853,
+    "lng": -79.3478659,
+    "displayName": "Commissioners Street, South Riverdale, Toronto—Danforth, Toronto, Golden Horseshoe, Ontario, M5A 1C8, Canada"
+  },
+  "434 front Street, Toronto": {
+    "lat": 43.6532664,
+    "lng": -79.356554,
+    "displayName": "Expedia Cruises, 434, Front Street East, St Lawrence-East Bayfront-The Islands, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5A 0J6, Canada"
+  },
+  "Willowdale. Edithvale Park, Toronto": null,
+  "Queen St E  & Broadview Ave, Toronto": {
+    "lat": 43.6591302,
+    "lng": -79.3500271,
+    "displayName": "Queen Street East, Broadview Avenue, South Riverdale, Toronto—Danforth, Toronto, Golden Horseshoe, Ontario, M4M 2G1, Canada"
+  },
+  "South side of Queens Quay  & Dan Leckie Way by the South Side Transit, Toronto": null,
+  "509 to Strachan Avenue, Toronto": {
+    "lat": 43.6348473,
+    "lng": -79.4088344,
+    "displayName": "Princes' Gates, Strachan Avenue, Fort York-Liberty Village, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5V 1A9, Canada"
+  },
+  "Bloor West  & High Park Avenue across from  High Park, Toronto": null,
+  "High Park Avenue across from  High Park Station, Toronto": null,
+  "South east corner of Main St.  & Danforth Ave, Toronto": null,
+  "3045 Little John Ln, Toronto": null,
+  "East. Closest major intersection: Dundas  & Hurontario. Five-minute walk to 1 Dundas, Toronto": null,
+  "John C. Price Playground: 3045 Little John Ln, Toronto": null,
+  "2201 Dundas Street West at Roncesvalles Avenue, Toronto": null,
+  "2201 Dundas Street West at Roncesvalles Avenue opposite Boustead Avenue, Toronto": null,
+  "Dundas-Roncesvalles Peace Garden ( 2201 Dundas Street West at Roncesvalles Avenue opposite Boustead Avenue ), Toronto": null,
+  "Cedarvale Station, Toronto": {
+    "lat": 43.6996541,
+    "lng": -79.4363599,
+    "displayName": "Cedarvale Station, Cedarvale Bus Terminal, Forest Hill North, Eglinton—Lawrence, York, Toronto, Golden Horseshoe, Ontario, M6C 2E5, Canada"
+  },
+  "106 King Street, Toronto": {
+    "lat": 43.7061778,
+    "lng": -79.5156037,
+    "displayName": "Cafe 106, 106, King Street, Weston, York South—Weston, York, North York, Toronto, Golden Horseshoe, Ontario, M9N 2E8, Canada"
+  },
+  "Maple Ave, Toronto": {
+    "lat": 43.6751898,
+    "lng": -79.3726401,
+    "displayName": "Maple Avenue, Rosedale-Moore Park, University—Rosedale, Toronto, Golden Horseshoe, Ontario, M4W 1K2, Canada"
+  },
+  "1 block west of Richmond St, Toronto": null,
+  "block west of Richmond St W  & Simcoe St. End, Toronto": null,
+  "Twilight Lane, Toronto": {
+    "lat": 43.649453,
+    "lng": -79.3875494,
+    "displayName": "Twilight Lane, Wellington Place, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M5H 1W7, Canada"
+  },
+  "185 Queen St, Toronto": {
+    "lat": 43.6160317,
+    "lng": -79.5565447,
+    "displayName": "Long Island for Men, 185, North Queen Street, Etobicoke City Centre, Etobicoke—Lakeshore, Etobicoke, Toronto, Golden Horseshoe, Ontario, M9C 5H5, Canada"
+  },
+  "42 Dewson St, Toronto": {
+    "lat": 43.6569629,
+    "lng": -79.4244954,
+    "displayName": "42, Dewson Street, Palmerston-Little Italy, Davenport, Toronto, Golden Horseshoe, Ontario, M6H 2N9, Canada"
+  },
+  "1575 Lake Shore Blvd, Toronto": {
+    "lat": 43.6373421,
+    "lng": -79.4530109,
+    "displayName": "Budapest Park Wading Pool, 1575, Lake Shore Boulevard West, South Parkdale, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, M6R 1B6, Canada"
+  },
+  "Mimico Square - Mimico Ave  & Lakeshore Blvd W, Toronto": null,
+  "121 Rankin Crescent, Toronto": {
+    "lat": 43.6599014,
+    "lng": -79.4467248,
+    "displayName": "Rankin Crescent, Junction Triangle, Davenport, Toronto, Golden Horseshoe, Ontario, M6H 1P6, Canada"
+  },
+  "843 Bathurst Street, Toronto": {
+    "lat": 43.7627464,
+    "lng": -79.4403093,
+    "displayName": "Bathurst Street, Westminster-Branson, York Centre, North York, Toronto, Golden Horseshoe, Ontario, M2R 3V3, Canada"
+  },
+  "At the north-west corner of Bain  & Logan Avenues. South Riverdale. Nearest, Toronto": null,
+  "Chester Station, Toronto": {
+    "lat": 43.6782277,
+    "lng": -79.3525143,
+    "displayName": "Chester, Chester Avenue, Playter Estates-Danforth, Toronto—Danforth, East York, Toronto, Golden Horseshoe, Ontario, M4K 2X5, Canada"
+  },
+  "Northwest corner of Spadina Ave and St.  & rews St, Toronto": null,
+  "Northeast corner of Harbord  & Bathurst, Toronto": null,
+  "Southeast corner of St. George  & Hoskin, Toronto": null,
+  "Southeast corner of St. George and Hoskin, Toronto": null,
+  "across from Blythwood Rd, Toronto": null,
+  "Snider Parkette at Yonge  & Lytton Blvd. (across from Blythwood Rd, Toronto": null,
+  "346 Dundas St, Toronto": {
+    "lat": 43.658712,
+    "lng": -79.36965,
+    "displayName": "346, Dundas Street East, Moss Park, Toronto Centre, Toronto, Golden Horseshoe, Ontario, M5A 2A6, Canada"
+  },
+  "Queen St. E. and Lee, Toronto": null,
+  "Library Beaches Branch (Queen St. E.  & Lee) outside by the owl sculpture, Toronto": null,
+  "1303 Queen St, Toronto": {
+    "lat": 43.6411557,
+    "lng": -79.432634,
+    "displayName": "Toronto Public Library - Parkdale, 1303, Queen Street West, South Parkdale, Parkdale—High Park, Toronto, Golden Horseshoe, Ontario, M6K 1L6, Canada"
+  },
+  "Yonge Boulevard Parkette at Yonge Street  & Yonge Boulevard, Toronto": null,
+  "minute walk from Lawrence Subway Station, Toronto": null,
+  "Yonge Boulevard Parkette at Yonge Street and Yonge Boulevard, Toronto": null,
+  "165 Lansdowne Ave, Toronto": {
+    "lat": 43.6544201,
+    "lng": -79.4413467,
+    "displayName": "Lansdowne Avenue, Brockton Village, Davenport, Toronto, Golden Horseshoe, Ontario, M6H 4A1, Canada"
+  },
+  "Caledonia LRT Station, Toronto": null,
+  "just west of Lansdowne Avenue, Toronto": null,
+  "Mount Dennis Station, Toronto": {
+    "lat": 43.6879318,
+    "lng": -79.4861859,
+    "displayName": "Mount Dennis, 3500, Eglinton Avenue West, Beechborough-Greenbrook, York South—Weston, York, Toronto, Golden Horseshoe, Ontario, M6M 0A1, Canada"
+  },
+  "Interesection of Telegram Mews  & Iceboat Terrace in City Place near, Toronto": null,
+  "TTC Streetcar Loop, Toronto": null,
+  "Exhibition Station, Toronto": {
+    "lat": 43.6360095,
+    "lng": -79.4188537,
+    "displayName": "Exhibition, Gardiner Expressway, Fort York-Liberty Village, Spadina—Fort York, Toronto, Golden Horseshoe, Ontario, M6K 3P8, Canada"
+  },
+  "formerly Yonge-Dundas Square, Toronto": null,
+  "at Yonge St  & Dundas St E, Toronto": null,
+  "Sankofa Square (formerly Yonge-Dundas Square), Toronto": null,
+  "34 Princess Royal Drive at Living Arts Drive, Toronto": null,
+  "Contemplating Child sculpture, Toronto": null,
+  "1 block south of Eglinton & Scarlett, Toronto": null,
+  "Patio of BEVO Espresso  & Gelato, Toronto": null,
+  "Patio of BEVO Espresso & Gelato, Toronto": null,
+  "Sewells Road  & Brenyon Way, Toronto": null,
+  "Malvern, Toronto": {
+    "lat": 43.8091955,
+    "lng": -79.2217008,
+    "displayName": "Malvern, Scarborough—Rouge Park, Scarborough, Toronto, Golden Horseshoe, Ontario, M1B 0C2, Canada"
+  }
+}
