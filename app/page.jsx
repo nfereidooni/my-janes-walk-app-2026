@@ -925,8 +925,7 @@ function JanesWalkApp() {
                   fontWeight: "700",
                   fontFamily: T.sans,
                   transition: "all 0.15s ease",
-                  marginLeft: "auto",
-                }}
+                  }}
               >
                 {showEnded ? "Hide ended" : "Show ended"}
               </button>
