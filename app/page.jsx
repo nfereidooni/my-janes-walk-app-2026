@@ -823,7 +823,7 @@ function JanesWalkApp() {
                 Our Streets · Our Stories
               </div>
               <div style={{ fontFamily: T.serif, fontSize: "23px", fontWeight: "700", color: T.ink, lineHeight: "1.05" }}>
-                my <span style={{ color: T.rust }}>Jane&apos;s</span> Walk
+                my <span style={{ color: T.rust }}>Jane&apos;s</span> Walk <span style={{ fontSize: "15px", color: T.inkLight, fontWeight: "600" }}>Toronto</span>
               </div>
             </div>
           </div>
