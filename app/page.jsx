@@ -44,6 +44,13 @@ const DAYS = [
   { id: "Saturday", label: "Sat May 2" },
   { id: "Sunday", label: "Sun May 3" },
 ];
+const DAY_ORDER = { Friday: 0, Saturday: 1, Sunday: 2 };
+function walkSort(a, b) {
+  const da = DAY_ORDER[dayKey(a.date)] ?? 3;
+  const db = DAY_ORDER[dayKey(b.date)] ?? 3;
+  if (da !== db) return da - db;
+  return a.timeSort - b.timeSort;
+}
 function dayKey(dateStr) {
   const s = String(dateStr || "").trim();
   if (/^Friday\b/i.test(s)) return "Friday";
@@ -62,6 +69,21 @@ function dur(m) {
   const h = Math.floor(m / 60);
   const r = m % 60;
   return r ? `${h}h ${r}m` : `${h}h`;
+}
+
+const DAY_DATE = { Friday: 1, Saturday: 2, Sunday: 3 }; // May 2026
+function isOver(walk) {
+  const dayNum = DAY_DATE[dayKey(walk.date)];
+  if (!dayNum) return false;
+  const endMin = walk.timeSort + (walk.duration || 0);
+  const end = new Date(2026, 4, dayNum, Math.floor(endMin / 60), endMin % 60);
+  return Date.now() > end.getTime();
+}
+function isStarted(walk) {
+  const dayNum = DAY_DATE[dayKey(walk.date)];
+  if (!dayNum) return false;
+  const start = new Date(2026, 4, dayNum, Math.floor(walk.timeSort / 60), walk.timeSort % 60);
+  return Date.now() > start.getTime();
 }
 
 function Loop({ size = 40, color = T.rust, op = 0.15 }) {
@@ -103,6 +125,8 @@ function ThemePill({ theme, small = false }) {
 
 function WalkCard({ walk, starred, onToggle, onOpen, idx }) {
   const [pressed, setPressed] = useState(false);
+  const over = isOver(walk);
+  const inProgress = !over && isStarted(walk);
   return (
     <div
       onClick={() => onOpen(walk)}
@@ -112,7 +136,7 @@ function WalkCard({ walk, starred, onToggle, onOpen, idx }) {
       onTouchStart={() => setPressed(true)}
       onTouchEnd={() => setPressed(false)}
       style={{
-        background: T.white,
+        background: over ? "#F8F6F2" : T.white,
         borderRadius: "22px",
         padding: "18px 17px 16px",
         marginBottom: "11px",
@@ -127,6 +151,7 @@ function WalkCard({ walk, starred, onToggle, onOpen, idx }) {
         animationDelay: `${idx * 30}ms`,
         transform: pressed ? "scale(0.982)" : "scale(1)",
         transition: "transform 0.12s ease, box-shadow 0.2s ease, border-color 0.2s ease",
+        opacity: over ? 0.6 : 1,
       }}
     >
       {starred && (
@@ -151,7 +176,7 @@ function WalkCard({ walk, starred, onToggle, onOpen, idx }) {
           {!!dayLabel(walk.date) && (
             <span
               style={{
-                background: T.inkMid,
+                background: over ? T.sandLight : T.inkMid,
                 color: T.white,
                 fontSize: "11px",
                 fontWeight: "800",
@@ -166,7 +191,9 @@ function WalkCard({ walk, starred, onToggle, onOpen, idx }) {
           )}
           <span
             style={{
-              background: walk.timeSort >= 1020
+              background: over
+                ? T.sandLight
+                : walk.timeSort >= 1020
                 ? `linear-gradient(135deg, ${T.inkMid}, #5A5248)`
                 : `linear-gradient(135deg, ${T.forest}, ${T.forestMid})`,
               color: T.white,
@@ -181,6 +208,16 @@ function WalkCard({ walk, starred, onToggle, onOpen, idx }) {
             {walk.time}
           </span>
           <span style={{ fontSize: "12px", color: T.inkLight, fontFamily: T.sans, fontWeight: "600" }}>{dur(walk.duration)}</span>
+          {inProgress && (
+            <span style={{ fontSize: "10px", fontWeight: "800", letterSpacing: "0.05em", fontFamily: T.sans, color: "#2A7A3E", background: "#E3F5E8", borderRadius: "999px", padding: "3px 9px" }}>
+              ● In progress
+            </span>
+          )}
+          {over && (
+            <span style={{ fontSize: "10px", fontWeight: "700", letterSpacing: "0.05em", fontFamily: T.sans, color: T.inkLight, background: T.parchment, borderRadius: "999px", padding: "3px 9px" }}>
+              Ended
+            </span>
+          )}
         </div>
         <button
           onClick={(e) => {
@@ -624,7 +661,7 @@ function MapView({ walks, starred, onOpen, onToggle }) {
 function ScheduleView({ walks, starred, onOpen, onToggle }) {
   const saved = walks
     .filter((w) => starred.has(w.id))
-    .sort((a, b) => a.timeSort - b.timeSort);
+    .sort(walkSort);
   if (!saved.length)
     return (
       <div style={{ padding: "72px 32px", textAlign: "center" }}>
@@ -747,11 +784,11 @@ function JanesWalkApp() {
       if (themes.length && !themes.some((t) => w.themes.includes(t))) return false;
       if (tslot && timeCat(w.timeSort) !== tslot) return false;
       return true;
-    }).sort((a, b) => a.timeSort - b.timeSort);
+    }).sort(walkSort);
   }, [search, themes, tslot, day]);
 
   const walksForMap = useMemo(() => {
-    return WALKS.filter((w) => (!day ? true : dayKey(w.date) === day)).sort((a, b) => a.timeSort - b.timeSort);
+    return WALKS.filter((w) => (!day ? true : dayKey(w.date) === day)).sort(walkSort);
   }, [day]);
 
   const nFilters = themes.length + (tslot ? 1 : 0);
@@ -1038,6 +1075,7 @@ function JanesWalkApp() {
             <button
               key={id}
               onClick={() => { setTab(id); showFilt(false); }}
+              onTouchEnd={(e) => { e.preventDefault(); setTab(id); showFilt(false); }}
               style={{
                 flex: 1,
                 border: "none",
@@ -1049,6 +1087,7 @@ function JanesWalkApp() {
                 alignItems: "center",
                 gap: "3px",
                 transition: "opacity 0.15s",
+                touchAction: "manipulation",
               }}
             >
               <span style={{ fontSize: on ? "21px" : "19px", lineHeight: 1, transition: "font-size 0.15s ease" }}>{ico}</span>
