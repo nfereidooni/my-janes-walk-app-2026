@@ -747,6 +747,7 @@ function JanesWalkApp() {
   const [starred, setStar] = useState(new Set());
   const [detail, setDetail] = useState(null);
   const [filters, showFilt] = useState(false);
+  const [showEnded, setShowEnded] = useState(false);
 
   useEffect(() => {
     try {
@@ -786,6 +787,12 @@ function JanesWalkApp() {
       return true;
     }).sort(walkSort);
   }, [search, themes, tslot, day]);
+
+  const endedCount = useMemo(() => filtered.filter(isOver).length, [filtered]);
+  const visibleWalks = useMemo(
+    () => showEnded ? filtered : filtered.filter((w) => !isOver(w)),
+    [filtered, showEnded],
+  );
 
   const walksForMap = useMemo(() => {
     return WALKS.filter((w) => (!day ? true : dayKey(w.date) === day)).sort(walkSort);
@@ -1027,13 +1034,13 @@ function JanesWalkApp() {
         {tab === "explore" && (
           <div style={{ padding: "16px 16px" }}>
             <div style={{ fontSize: "12px", color: T.inkLight, fontFamily: T.sans, marginBottom: "14px", fontWeight: "600" }}>
-              {filtered.length} walk{filtered.length !== 1 ? "s" : ""}{" "}
+              {visibleWalks.length} walk{visibleWalks.length !== 1 ? "s" : ""}{" "}
               {nFilters || search || day ? "found" : "· May 1–3"}
             </div>
-            {filtered.map((w, i) => (
+            {visibleWalks.map((w, i) => (
               <WalkCard key={w.id} walk={w} starred={starred.has(w.id)} onToggle={toggleStar} onOpen={setDetail} idx={i} />
             ))}
-            {filtered.length === 0 && (
+            {visibleWalks.length === 0 && endedCount === 0 && (
               <div style={{ textAlign: "center", padding: "56px 20px", color: T.inkLight }}>
                 <div style={{ display: "flex", justifyContent: "center", marginBottom: "16px" }}>
                   <Loop size={64} color={T.sand} op={0.45} />
@@ -1041,6 +1048,28 @@ function JanesWalkApp() {
                 <p style={{ fontFamily: T.serif, fontSize: "20px", color: T.inkMid, margin: "0 0 8px" }}>No walks match</p>
                 <p style={{ fontFamily: T.sans, fontSize: "13px", margin: 0 }}>Try adjusting your filters.</p>
               </div>
+            )}
+            {endedCount > 0 && (
+              <button
+                onClick={() => setShowEnded((v) => !v)}
+                style={{
+                  display: "block",
+                  width: "100%",
+                  marginTop: "8px",
+                  padding: "13px",
+                  background: "none",
+                  border: `1.5px dashed ${T.sandLight}`,
+                  borderRadius: "16px",
+                  color: T.inkLight,
+                  fontSize: "13px",
+                  fontWeight: "700",
+                  fontFamily: T.sans,
+                  cursor: "pointer",
+                  textAlign: "center",
+                }}
+              >
+                {showEnded ? `Hide ended walks ↑` : `Show ${endedCount} ended walk${endedCount !== 1 ? "s" : ""} ↓`}
+              </button>
             )}
           </div>
         )}
